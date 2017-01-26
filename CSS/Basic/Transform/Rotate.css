@@ -1,0 +1,4 @@
+// rotates the element 10 degrees clockwise
+.element {
+	transform: rotate(10deg);
+}
