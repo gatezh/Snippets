@@ -1,5 +1,8 @@
 ## Rotate
 
+You give it a degree value from 0 to 360, and the browser rotates that element the specified number of degrees around a circle. Use *negative numbers* to rotate the element counter-clockwise.
+
+
 ```css
 /* rotate the element 10 degrees clockwise */
 .element {
@@ -36,6 +39,7 @@
 
 
 ## Translate
+`translate` function simply moves an element from its current position a set amount left or right and up or down.
 
 ```css
 .element {
@@ -49,6 +53,9 @@
 
 
 ## Skew
+
+The first value is a degree value from `0deg` to `360deg`, proceeding in a counter-clockwise direction from the top of the element.  
+The second value is also a degree value from `0deg` to `360deg`. But this one proceeds in a clockwise position from the right of the element. 
 
 ```css
 /* slant all the vertical lines so they lean to the left 45deg */
@@ -68,6 +75,10 @@
 
 
 ## Origin
+
+Normally, when you apply a transformation to an element, the web browser uses the center of the element as the transformation point.
+
+> The `transform-origin` property has no effect on elements that are only moved using the `translate` function. 
 
 ```css
 /* rotate around it's top left corner */
