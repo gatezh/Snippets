@@ -74,8 +74,7 @@ HTML provides the `<colgroup>` and `<col>` tags to indicate groups of columns an
 
 Only two sets of properties work on these tags: width and the background properties (`background-color`, `background-image`, and so on).
 
-
-
 ```css
-
+#price, #rating {
+    width: 15%; }
 ```
