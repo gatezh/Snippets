@@ -1,3 +1,39 @@
+```html
+<form class="subform"  method="post" action="submit.html">
+	<p>
+		<label for="name">What is your name?</label>
+		<input type="text" name="name" id="name">
+	</p>
+	<p>
+		<label for="email">What is your email address?</label>
+		<input type="text" name="email" id="email">
+	</p>
+	<p>Rate your skills
+		<label>
+			<input name="skill" type="radio" value="novice">
+			Novice</label>
+		<label>
+			<input name="skill" type="radio" value="advanced">
+			Advanced</label>
+	</p>
+	<p>
+		<label for="refer">Where did you hear about us? </label>
+		<select name="refer" id="refer">
+			<option value="null">Select One</option>
+			<option value="1">Friend</option>
+			<option value="2">Internet</option>
+		</select>
+	</p>
+	<p>
+		<label for="comments">Any additional comments? </label>
+		<textarea name="comments" cols="35" rows="4" id="comments"></textarea>
+	</p>
+	<p>
+		<input type="submit" value="Subscribe">
+	</p>
+</form>
+```
+
 ## HTML Form Elements
 
 1. `<fieldset>` – groups related form questions 
