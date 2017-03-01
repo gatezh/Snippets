@@ -1,3 +1,5 @@
+## Forms
+
 ```html
 <form class="subform"  method="post" action="submit.html">
 	<p>
@@ -34,7 +36,7 @@
 </form>
 ```
 
-## HTML Form Elements
+### HTML Form Elements
 
 1. `<fieldset>` – groups related form questions 
 2. `<legend>` – follows the HTML for the `<fieldset>` and provides a label for the group of fields
@@ -47,7 +49,7 @@
 5. Drop-down menus created by the `<select>` tag
 
 
-## Form pseudo-classes
+### Form pseudo-classes
 `:focus` pseudo-class lets you create a selector that changes the way a text field looks when a visitor clicks or tabs inside it (this is called giving the field focus).
 
 `:checked` pseudo-class works with radio buttons and checkboxes.
@@ -55,11 +57,11 @@
 You can only change the state of a form element (from disabled to enabled, for example) using JavaScript, so you’ll need to learn that to really take advantage of the `:enabled` or `:disabled` pseudo-classes.
 
 
-## Form Validation without JavaScript[^form validation]
+### Form Validation without JavaScript[^form validation]
 
 [^form validation]: [HTML5 Doctor. CSS3 Pseudo-Classes and HTML5 Forms](http://html5doctor.com/css3-pseudo-classes-and-html5-forms/)
 
-### Required and Optional Elements
+#### Required and Optional Elements
 
 ```html
 <input type="text" required id="foo">
@@ -78,7 +80,7 @@ A pseudo-class `:optional` affects any form element that doesn’t have a requir
 input:optional { border-color: silver; }
 ```
 
-### Valid and Invalid Elements
+#### Valid and Invalid Elements
 
 Use pattern matching, such as email address validation:
 
@@ -109,7 +111,7 @@ The exact script you use will vary, but however you do it, you can use that clas
 ```
 
 
-### Number Ranges
+#### Number Ranges
 
 Input type `number` allow a range of values using the `min` and `max` attributes:
 
@@ -136,7 +138,7 @@ input[type='number']:in-range { border-color: green; }
 ```
 
 
-### Reading and Writing
+#### Reading and Writing
 
 ```html
 <!-- a non-editable pre-filled form field -->
