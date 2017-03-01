@@ -1,3 +1,5 @@
+## Tables
+
 ```html
 <table class="inventory" width="100%">
 
@@ -34,7 +36,7 @@
 </table>
 ```
 
-## Creating Borders
+### Creating Borders
 
 1. Applying a border to a style that formats the `<table>` tag outlines just the table, not any of the individual cells.
 2. Applying borders to cells (`td { border: 1px solid black; }`) leaves you with a visual gap between cells
@@ -58,9 +60,9 @@ td {
 ```
 
 
-## Styling Rows and Columns
+### Styling Rows and Columns
 
-### Rows
+#### Rows
 
 ```css
 /* add background to odd/even rows */
@@ -68,7 +70,7 @@ tr:nth-of-type(odd) { background-color: red; }
 tr:nth-of-type(even) { background-color: blue; }
 ```
 
-### Columns
+#### Columns
 
 HTML provides the `<colgroup>` and `<col>` tags to indicate groups of columns and individual columns, respectively.
 
