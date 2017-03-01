@@ -30,7 +30,7 @@ Only the name and duration are actually required. The other values are optional.
 
 > To have an animation run a number of times but end up back at the beginning state, use an even number of iterations and set the `animation-direction` property to `alternate`.
 
-## Pausing an Animation
+### Pausing an Animation
 
 **`animation-play-state—to`** accepts only one of two keywords: `running` or `paused`.
 
