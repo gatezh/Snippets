@@ -1,0 +1,21 @@
+/* LAST UPDATE 2017-11-29 */
+
+select {
+    /* remove default arrow */
+    /* may need a prefix (use autoprefixer) */
+    appearance: none;
+
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1em;
+    color: black;
+
+    /* select arrow */
+    background-color: transparent;
+    background-image: url("assets/caret-down.svg");
+    background-size: 1.5em;
+    background-position: center right 1rem;
+    background-repeat: no-repeat;
+}
