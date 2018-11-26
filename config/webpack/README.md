@@ -28,3 +28,7 @@ Or execute the following command
 ```sh
 npm i autoprefixer babel-core babel-loader babel-preset-env clean-webpack-plugin copy-webpack-plugin css-loader extract-text-webpack-plugin file-loader html-webpack-plugin node-sass postcss-loader precss sass-loader style-loader uglifyjs-webpack-plugin webpack webpack-dev-server webpack-merge
 ```
+
+```
+yarn add webpack-cli -D
+```
