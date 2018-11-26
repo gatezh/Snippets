@@ -1,0 +1,17 @@
+##########################
+# Aliases                #
+##########################
+
+alias ..="cd .."
+alias l="ls -lah"
+alias c="clear"
+alias h="history"
+alias mkdir="mkdir -p"
+alias brewer="brew update && brew outdated"
+alias bkp="cd ~ \
+    && yarn cache clean \
+    && find . -name 'node_modules' -type d -prune -exec rm -rf '{}' + \
+    && tmutil startbackup"
+alias cnode="cd ~ \
+	&& yarn cache clean \
+    && find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
